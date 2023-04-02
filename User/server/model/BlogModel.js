@@ -22,6 +22,10 @@ var BlogSchema = new mongoose.Schema({
         type:String,
         required:true
     },
+    Author:{
+        type:String,
+        required:true
+    },
     ViewsCount:{
         type:Number
     }

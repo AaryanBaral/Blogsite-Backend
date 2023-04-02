@@ -1,18 +1,17 @@
 const mongoose = require("mongoose");
 var TestimonialSchema = new mongoose.Schema({
-    name:{
+    Name:{
         type:String,
         required:true
     },
-    designation:{
+    Designation:{
         type:String,
-        required:true,
     },
-    testimony:{
+    Testimony:{
         type:String,
         required:true
     },
-    imageURL:{
+    ImageUrl:{
         type:String
     },
 })
